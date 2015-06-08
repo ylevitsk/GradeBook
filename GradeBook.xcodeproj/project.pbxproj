@@ -14,6 +14,7 @@
 		B9E048381B17CA91002B1DA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E048371B17CA91002B1DA3 /* Images.xcassets */; };
 		B9E0483B1B17CA91002B1DA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9E048391B17CA91002B1DA3 /* LaunchScreen.xib */; };
 		B9E048471B17CA91002B1DA3 /* GradeBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E048461B17CA91002B1DA3 /* GradeBookTests.swift */; };
+		B9E048511B17CBA4002B1DA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E048501B17CBA4002B1DA3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B9E048401B17CA91002B1DA3 /* GradeBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradeBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E048451B17CA91002B1DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9E048461B17CA91002B1DA3 /* GradeBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeBookTests.swift; sourceTree = "<group>"; };
+		B9E048501B17CBA4002B1DA3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B9E048301B17CA91002B1DA3 /* MasterViewController.swift */,
 				B9E048321B17CA91002B1DA3 /* DetailViewController.swift */,
 				B9E048341B17CA91002B1DA3 /* Main.storyboard */,
+				B9E048501B17CBA4002B1DA3 /* LoginViewController.swift */,
 				B9E048371B17CA91002B1DA3 /* Images.xcassets */,
 				B9E048391B17CA91002B1DA3 /* LaunchScreen.xib */,
 				B9E0482C1B17CA91002B1DA3 /* Supporting Files */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E048511B17CBA4002B1DA3 /* LoginViewController.swift in Sources */,
 				B9E048331B17CA91002B1DA3 /* DetailViewController.swift in Sources */,
 				B9E048311B17CA91002B1DA3 /* MasterViewController.swift in Sources */,
 				B9E0482F1B17CA91002B1DA3 /* AppDelegate.swift in Sources */,
